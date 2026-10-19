@@ -1,0 +1,44 @@
+{
+  "tech_stack": {
+    "frontend": {
+      "framework": "React.js",
+      "description": "JavaScript library for building reusable, component-based user interfaces.",
+      "bundler": "Vite",
+      "description_bundler": "Fast development server and optimized production build tool for React applications.",
+      "language": "JavaScript",
+      "description_language": "Primary programming language for the frontend application.",
+      "styling": "CSS / Tailwind CSS",
+      "description_styling": "Used for responsive layouts, UI styling, and design consistency.",
+      "routing": "React Router",
+      "description_routing": "Handles client-side navigation between pages.",
+      "state_management": "React Context API / Zustand",
+      "description_state_management": "Manages shared application state such as user data, theme, or UI state.",
+      "http_client": "Axios / Fetch API",
+      "description_http_client": "Used to send requests to the FastAPI backend.",
+      "testing": "Vitest + React Testing Library",
+      "description_testing": "Used for unit and component testing."
+    },
+    "backend": {
+      "framework": "FastAPI",
+      "description": "Modern Python web framework for building fast, asynchronous REST APIs.",
+      "language": "Python 3.10+",
+      "description_language": "Primary programming language for backend services and business logic.",
+      "server": "Uvicorn",
+      "description_server": "ASGI server used to run the FastAPI application.",
+      "database": "PostgreSQL",
+      "description_database": "Relational database used to store application data.",
+      "orm": "SQLAlchemy",
+      "description_orm": "Provides database models, queries, and database interaction in Python.",
+      "migrations": "Alembic",
+      "description_migrations": "Manages database schema changes and version-controlled migrations.",
+      "validation": "Pydantic",
+      "description_validation": "Validates request/response data and enforces data types and schemas.",
+      "authentication": "JWT / OAuth2",
+      "description_authentication": "Used for secure user authentication and authorization when required.",
+      "testing": "Pytest + httpx",
+      "description_testing": "Used for API and integration testing.",
+      "documentation": "Swagger UI / OpenAPI",
+      "description_documentation": "Automatically generated interactive API documentation provided by FastAPI."
+    }
+  }
+}
