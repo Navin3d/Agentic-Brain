@@ -12,4 +12,4 @@ COPY . .
 
 EXPOSE 8000
 
-CMD ["python", "-m", "server"]
+CMD ["python", "main.py"]
